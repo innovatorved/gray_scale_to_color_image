@@ -1,0 +1,4 @@
+/workspaces/gray_scale_to_color_image/model/my_model_colorization.h5
+
+*/*.h5
+/*/*.h5
