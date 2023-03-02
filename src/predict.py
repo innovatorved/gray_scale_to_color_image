@@ -1,4 +1,3 @@
-import math
 import tensorflow as tf
 from keras import applications
 from keras.models import load_model
@@ -6,14 +5,9 @@ import os
 import numpy as np
 import cv2
 
-from ..utils import generate_batch, deprocess, reconstruct
+from utils import generate_batch, deprocess, reconstruct
 
-from model import download_model_if_not_exists
-
-
-download_model_if_not_exists()
-MODEL_DIR = os.path.join("/workspaces/gray_scale_to_color_image/model")
-
+MODEL_DIR = os.path.join("./model")
 PRETRAINED = "my_model_colorization.h5"
 
 VGG_modelF = applications.vgg16.VGG16(weights="imagenet", include_top=True)

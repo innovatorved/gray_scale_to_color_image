@@ -11,10 +11,8 @@ def check_for_file():
 
 def download_model_if_not_exists():
     if check_for_file():
-        print("yes")
         return True
     elif download_from_drive():
-        print("y33")
         return True
     else:
         print("y3")

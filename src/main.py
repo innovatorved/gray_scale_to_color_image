@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 
 
-MODEL_DIR = os.path.join("/content/drive/MyDrive/MODEL/")
+MODEL_DIR = os.path.join("./model")
 
 PRETRAINED = "my_model_colorization.h5"
 

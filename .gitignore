@@ -2,3 +2,5 @@
 
 */*.h5
 /*/*.h5
+flagged/*
+./flagged*
