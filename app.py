@@ -1,15 +1,16 @@
 import warnings
+
 warnings.filterwarnings("ignore")
 
 from model import download_model_if_not_exists
+
+import sys
+
 isExist = download_model_if_not_exists()
 if isExist == False:
     sys.exit(0)
 
-import sys
 import gradio as gr
-
-
 from src import predict_colored_image
 
 
