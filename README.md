@@ -24,6 +24,10 @@ To use this project, follow the steps given below:
 - Open the browser and go to http://localhost:7860 to access the web application.
 
 - Upload a black and white image to see it transformed into a colored image.
+
+## Note
+During the first run, the project will download a pre-trained model. This may take some time and use up some data. It is recommended to run the project on a Wi-Fi connection to avoid using up mobile data.
+
 ## License
 
 [MIT](https://github.com/innovatorved/gray_scale_to_color_image/blob/main/LICENSE)
@@ -35,6 +39,7 @@ To use this project, follow the steps given below:
 ## Authors
 
 - [@innovatorved](https://www.github.com/innovatorved)
+- [@iamutkarsh007](https://github.com/iamutkarsh007)
 
 
 ## 🔗 Links
